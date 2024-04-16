@@ -22,7 +22,6 @@ function nextBtnHandler(){
 
 function checkBtnHandler(){
     if(billAmount.value<=cashGiven.value){
-        // document.getElementById("cash-validator").style.display="none";
         document.getElementById("aftercash").style.display="block";
         calcNotes(cashGiven.value-billAmount.value);
     }else{
